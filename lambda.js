@@ -3,11 +3,11 @@ const https = require('https')
 
 const data = require("./ids.json")
 const baseUrl = `https://api.etherscan.io`;
-const receivingAddress = ``; // fill with address
+const RECEIVING_ADDRESS = ``; // fill with address
 const API_KEY = ``; // api key
 const queryUrl =
     baseUrl + `/api?module=account&action=txlist&address=` +
-    receivingAddress + `&startblock=700000&endblock=99999999&sort=desc&apikey=` + API_KEY;
+    RECEIVING_ADDRESS + `&startblock=700000&endblock=99999999&sort=desc&apikey=` + API_KEY;
 
 const GWEI_PER_ETH = 1000000000;
 const POLL_INTERVAL = 1000;
