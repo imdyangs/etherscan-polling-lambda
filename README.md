@@ -1,7 +1,9 @@
 # Etherscan Polling Lambda
 
-Etherscan polling lambda polls my transactions account for transactions of a given size within a timeframe.
+Etherscan polling lambda polls an Ethereum address for transactions of a given size within a timeframe.
 
-I hacked this together in like 2 days, please excuse the code quality. 😅
+To use:
+1. Create a new lambda in AWS.
+2. Copy and paste code into online console OR zip file and upload via [AWS Console](https://docs.aws.amazon.com/lambda/latest/dg/nodejs-package.html).
 
 [polycard.ca](https://polycard.ca/).
