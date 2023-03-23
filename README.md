@@ -4,6 +4,6 @@ Etherscan polling lambda polls an Ethereum address for transactions of a given s
 
 To use:
 1. Create a new lambda in AWS.
-2. Copy and paste code into online console OR zip file and upload via [AWS Console](https://docs.aws.amazon.com/lambda/latest/dg/nodejs-package.html).
+2. Upload via [AWS Console](https://docs.aws.amazon.com/lambda/latest/dg/nodejs-package.html).
 
 [polycard.ca](https://polycard.ca/).
